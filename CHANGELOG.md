@@ -34,3 +34,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [31] fix: gracefully handle failed transaction simulation input
 - [32] perf: trim bundle size by removing redundant UI logic
 - [33] refactor: align booking states with consistent lifecycle naming
+- [34] security: guard admin interactions with role checks and fallbacks
