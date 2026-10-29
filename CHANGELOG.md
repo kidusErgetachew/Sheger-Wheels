@@ -100,3 +100,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [97] feat: add microsite details for featured vehicles and neighborhoods
 - [98] fix: recover gracefully from malformed JSON in local storage
 - [99] perf: reduce state churn during quick filter updates
+- [100] refactor: normalize route param usage across listing screens
