@@ -60,3 +60,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [57] feat: add announcement broadcasting tools for admins
 - [58] fix: protect against malformed booking IDs in detail views
 - [59] perf: streamline list rendering for large inventory sets
+- [60] refactor: unify error messages across UI and actions
