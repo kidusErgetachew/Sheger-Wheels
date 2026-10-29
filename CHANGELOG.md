@@ -9,3 +9,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [6] refactor: simplify car detail data mapping for clarity
 - [7] security: sanitize returnUrl values before redirecting users
 - [8] test: cover booking conflict detection in the renter journey
+- [9] docs: document safe authentication and misuse safeguards
