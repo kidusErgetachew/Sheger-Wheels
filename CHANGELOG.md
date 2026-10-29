@@ -18,3 +18,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [15] fix: recover from corrupted local storage entries without crashing
 - [16] perf: reduce repeated renders in the car comparison flow
 - [17] refactor: centralize vehicle validation rules in a single module
+- [18] security: block cross-user ownership attempts on listing edits
