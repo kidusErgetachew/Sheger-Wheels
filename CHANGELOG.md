@@ -49,3 +49,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [46] test: validate dispute and announcement admin screens
 - [47] docs: publish deployment guidance for Vercel and VPS hosting
 - [48] ui: improve CTA hierarchy and empty-state messaging
+- [49] feat: add user registration flow for new renters
