@@ -45,3 +45,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [42] fix: prevent duplicate booking requests under tight timing
 - [43] perf: cache static inventory data for quicker loads
 - [44] refactor: reduce nested conditionals in checkout logic
+- [45] security: audit demo user access and deny unauthorized actions
