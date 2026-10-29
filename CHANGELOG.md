@@ -33,3 +33,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [30] feat: add TeleBirr mock checkout confirmation flow
 - [31] fix: gracefully handle failed transaction simulation input
 - [32] perf: trim bundle size by removing redundant UI logic
+- [33] refactor: align booking states with consistent lifecycle naming
