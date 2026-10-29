@@ -95,3 +95,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [92] refactor: centralize booking status copy in shared metadata
 - [93] security: block tampered IDs in public booking lookup routes
 - [94] test: confirm notification banners show correct fallback text
+- [95] docs: add owner onboarding notes and help text references
