@@ -17,3 +17,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [14] feat: add saved favorites interactions for renter accounts
 - [15] fix: recover from corrupted local storage entries without crashing
 - [16] perf: reduce repeated renders in the car comparison flow
+- [17] refactor: centralize vehicle validation rules in a single module
