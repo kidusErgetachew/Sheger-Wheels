@@ -14,3 +14,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [11] feat: add owner dashboard overview metrics
 - [12] fix: handle missing listing photos with graceful placeholders
 - [13] chore: standardize naming for vehicle model metadata
+- [14] feat: add saved favorites interactions for renter accounts
