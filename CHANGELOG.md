@@ -29,3 +29,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [26] security: protect demo auth flows from unsafe redirect abuse
 - [27] test: verify suspension handling for locked owner accounts
 - [28] docs: record performance baselines for production readiness
+- [29] ui: polish car card layouts for desktop and mobile use
