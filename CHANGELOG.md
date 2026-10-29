@@ -76,3 +76,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [73] feat: add admin dispute management and resolution tools
 - [74] fix: validate owner suspension states before access is granted
 - [75] perf: cache filtered list results during quick user interactions
+- [76] refactor: clean up checkout state transitions and edge cases
