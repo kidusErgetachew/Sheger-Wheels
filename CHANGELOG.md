@@ -13,3 +13,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [10] ui: refresh landing page with accessible hero and CTA sections
 - [11] feat: add owner dashboard overview metrics
 - [12] fix: handle missing listing photos with graceful placeholders
+- [13] chore: standardize naming for vehicle model metadata
