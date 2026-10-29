@@ -73,3 +73,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [70] test: verify platform metrics still render after data resets
 - [71] docs: add operational notes for demo environment setup
 - [72] ui: improve checklist and microcopy across the sign-in flow
+- [73] feat: add admin dispute management and resolution tools
