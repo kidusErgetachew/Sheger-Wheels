@@ -117,3 +117,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [114] fix: handle stale session values with fallback recovery flow
 - [115] perf: precompute static landing page sections for faster rendering
 - [116] refactor: decompose large page logic into smaller reusable units
+- [117] security: fail closed on unknown user roles and blocked profiles
