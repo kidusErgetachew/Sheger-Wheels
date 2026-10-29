@@ -39,3 +39,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [36] docs: capture ownership and renter workflow responsibilities
 - [37] ui: improve map and location discovery callouts
 - [38] feat: add listing review and approval pipeline
+- [39] fix: handle invalid date ranges with clear validation feedback
