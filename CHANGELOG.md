@@ -43,3 +43,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [40] chore: align dependency versions for stable builds
 - [41] feat: add owner earnings ledger export capability
 - [42] fix: prevent duplicate booking requests under tight timing
+- [43] perf: cache static inventory data for quicker loads
