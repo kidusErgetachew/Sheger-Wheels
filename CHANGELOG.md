@@ -64,3 +64,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [61] security: prevent external payload injection in demo data flows
 - [62] test: cover vehicle creation validation edge cases
 - [63] docs: describe recovery and rollback patterns for stored records
+- [64] ui: polish filters, toggles, and booking summaries
