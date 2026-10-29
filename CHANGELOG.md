@@ -113,3 +113,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [110] test: validate local recovery logic after repeated resets
 - [111] docs: archive architecture decisions for future platform growth
 - [112] ui: standardize button states and assistive labels
+- [113] feat: add fraud-safe demo transaction confirmation screens
