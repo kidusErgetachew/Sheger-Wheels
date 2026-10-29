@@ -101,3 +101,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [98] fix: recover gracefully from malformed JSON in local storage
 - [99] perf: reduce state churn during quick filter updates
 - [100] refactor: normalize route param usage across listing screens
+- [101] security: validate user role transitions before granting admin access
