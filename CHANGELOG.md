@@ -26,3 +26,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [23] fix: surface actionable messages when booking dates are invalid
 - [24] perf: memoize quote calculations for faster updates
 - [25] refactor: isolate storage access behind a resilient facade
+- [26] security: protect demo auth flows from unsafe redirect abuse
