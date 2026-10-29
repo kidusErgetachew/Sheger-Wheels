@@ -55,3 +55,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [52] refactor: simplify route guard handling around sign-in redirect
 - [53] security: harden input validation for vehicle listing forms
 - [54] test: confirm owner status toggles update dashboards correctly
+- [55] docs: capture roadmap for production backend migration
