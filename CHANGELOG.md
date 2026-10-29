@@ -21,3 +21,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [18] security: block cross-user ownership attempts on listing edits
 - [19] test: validate theme switching for light and dark modes
 - [20] docs: outline data model versioning and recovery strategy
+- [21] ui: improve mobile navigation and booking controls
