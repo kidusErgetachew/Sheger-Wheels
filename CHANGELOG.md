@@ -10,3 +10,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [7] security: sanitize returnUrl values before redirecting users
 - [8] test: cover booking conflict detection in the renter journey
 - [9] docs: document safe authentication and misuse safeguards
+- [10] ui: refresh landing page with accessible hero and CTA sections
