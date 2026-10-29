@@ -58,3 +58,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [55] docs: capture roadmap for production backend migration
 - [56] ui: refine dark theme contrast and focus states
 - [57] feat: add announcement broadcasting tools for admins
+- [58] fix: protect against malformed booking IDs in detail views
