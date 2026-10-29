@@ -50,3 +50,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [47] docs: publish deployment guidance for Vercel and VPS hosting
 - [48] ui: improve CTA hierarchy and empty-state messaging
 - [49] feat: add user registration flow for new renters
+- [50] fix: recover gracefully when storage quota is exceeded
