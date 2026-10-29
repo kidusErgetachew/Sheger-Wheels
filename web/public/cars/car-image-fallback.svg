@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Vehicle image unavailable">
+  <rect width="1200" height="720" fill="#e9ece5"/>
+  <path d="M0 510h1200v210H0z" fill="#dfe4dc"/>
+  <path d="M0 548h1200" fill="none" stroke="#cbd3ca" stroke-width="3"/>
+  <g fill="none" stroke="#86958f" stroke-linecap="round" stroke-linejoin="round" stroke-width="13">
+    <path d="m274 454 52-121c13-30 39-49 72-53l101-10h220l105 24c30 7 52 25 68 49l62 111 47 18c23 9 37 31 37 55v33H240v-40c0-28 13-52 34-63z"/>
+    <path d="m354 338 50-6 89-8v123H302l43-101c2-5 5-8 9-8zm178-14h181l85 20 50 103H532V324z"/>
+    <path d="M278 444h721M472 327v122m52-126v126"/>
+    <circle cx="382" cy="551" r="54" fill="#e9ece5"/>
+    <circle cx="863" cy="551" r="54" fill="#e9ece5"/>
+    <circle cx="382" cy="551" r="19" fill="#86958f"/>
+    <circle cx="863" cy="551" r="19" fill="#86958f"/>
+  </g>
+  <text x="600" y="660" fill="#667771" font-family="Arial, sans-serif" font-size="27" text-anchor="middle">Vehicle image unavailable</text>
+</svg>
