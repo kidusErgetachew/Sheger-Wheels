@@ -48,3 +48,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [45] security: audit demo user access and deny unauthorized actions
 - [46] test: validate dispute and announcement admin screens
 - [47] docs: publish deployment guidance for Vercel and VPS hosting
+- [48] ui: improve CTA hierarchy and empty-state messaging
