@@ -80,3 +80,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [77] security: fail closed when demo session data is missing
 - [78] test: verify unauthorized access returns clear error payloads
 - [79] docs: summarize lessons learned from security misuse tests
+- [80] ui: tighten spacing and typography for clearer scanning
