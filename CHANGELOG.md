@@ -108,3 +108,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [105] feat: add sorted availability controls and price threshold filters
 - [106] fix: handle missing neighborhood metadata without blank screens
 - [107] perf: reduce duplicate CSS by consolidating shared tokens
+- [108] refactor: unwrap nested promises in async booking actions
