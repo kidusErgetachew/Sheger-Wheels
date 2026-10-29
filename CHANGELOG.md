@@ -53,3 +53,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [50] fix: recover gracefully when storage quota is exceeded
 - [51] perf: lazy load heavy asset data during browsing
 - [52] refactor: simplify route guard handling around sign-in redirect
+- [53] security: harden input validation for vehicle listing forms
