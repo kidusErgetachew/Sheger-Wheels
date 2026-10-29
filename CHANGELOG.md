@@ -90,3 +90,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [87] docs: record accessibility and interaction notes for admin tools
 - [88] ui: elevate card hover states and button states consistently
 - [89] feat: add listing status toggles for availability changes
+- [90] fix: prevent negative or zero pricing values from reaching storage
