@@ -97,3 +97,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [94] test: confirm notification banners show correct fallback text
 - [95] docs: add owner onboarding notes and help text references
 - [96] ui: improve responsive layout for tablet and desktop tables
+- [97] feat: add microsite details for featured vehicles and neighborhoods
