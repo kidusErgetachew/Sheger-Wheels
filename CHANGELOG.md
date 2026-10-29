@@ -52,3 +52,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [49] feat: add user registration flow for new renters
 - [50] fix: recover gracefully when storage quota is exceeded
 - [51] perf: lazy load heavy asset data during browsing
+- [52] refactor: simplify route guard handling around sign-in redirect
