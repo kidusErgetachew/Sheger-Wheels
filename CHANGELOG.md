@@ -75,3 +75,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [72] ui: improve checklist and microcopy across the sign-in flow
 - [73] feat: add admin dispute management and resolution tools
 - [74] fix: validate owner suspension states before access is granted
+- [75] perf: cache filtered list results during quick user interactions
