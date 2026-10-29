@@ -6,3 +6,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [3] feat: introduce renter booking workflow and quote summary
 - [4] fix: prevent empty pricing data from breaking quote generation
 - [5] perf: optimize neighborhood search for faster listings
+- [6] refactor: simplify car detail data mapping for clarity
