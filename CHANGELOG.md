@@ -85,3 +85,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [82] fix: handle invalid vehicle year inputs with precise guidance
 - [83] perf: tune image handling for faster initial page renders
 - [84] refactor: simplify session storage logic around user identity
+- [85] security: deny untrusted return paths for protected routes
