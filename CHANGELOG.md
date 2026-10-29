@@ -99,3 +99,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [96] ui: improve responsive layout for tablet and desktop tables
 - [97] feat: add microsite details for featured vehicles and neighborhoods
 - [98] fix: recover gracefully from malformed JSON in local storage
+- [99] perf: reduce state churn during quick filter updates
