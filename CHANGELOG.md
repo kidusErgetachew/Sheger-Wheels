@@ -24,3 +24,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [21] ui: improve mobile navigation and booking controls
 - [22] feat: add admin moderation queue for pending listings
 - [23] fix: surface actionable messages when booking dates are invalid
+- [24] perf: memoize quote calculations for faster updates
