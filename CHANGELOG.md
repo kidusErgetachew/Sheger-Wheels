@@ -71,3 +71,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [68] refactor: move repeated validation helpers into shared utilities
 - [69] security: reject unauthorized changes to other users' bookings
 - [70] test: verify platform metrics still render after data resets
+- [71] docs: add operational notes for demo environment setup
