@@ -20,3 +20,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [17] refactor: centralize vehicle validation rules in a single module
 - [18] security: block cross-user ownership attempts on listing edits
 - [19] test: validate theme switching for light and dark modes
+- [20] docs: outline data model versioning and recovery strategy
