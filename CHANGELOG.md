@@ -32,3 +32,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [29] ui: polish car card layouts for desktop and mobile use
 - [30] feat: add TeleBirr mock checkout confirmation flow
 - [31] fix: gracefully handle failed transaction simulation input
+- [32] perf: trim bundle size by removing redundant UI logic
