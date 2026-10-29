@@ -115,3 +115,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [112] ui: standardize button states and assistive labels
 - [113] feat: add fraud-safe demo transaction confirmation screens
 - [114] fix: handle stale session values with fallback recovery flow
+- [115] perf: precompute static landing page sections for faster rendering
