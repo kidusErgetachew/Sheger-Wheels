@@ -106,3 +106,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [103] docs: finalize deployment checklist and environment assumptions
 - [104] ui: refine empty states and success messaging across flows
 - [105] feat: add sorted availability controls and price threshold filters
+- [106] fix: handle missing neighborhood metadata without blank screens
