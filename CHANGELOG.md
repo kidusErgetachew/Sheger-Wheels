@@ -70,3 +70,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [67] perf: reduce rehydration overhead for static default pages
 - [68] refactor: move repeated validation helpers into shared utilities
 - [69] security: reject unauthorized changes to other users' bookings
+- [70] test: verify platform metrics still render after data resets
