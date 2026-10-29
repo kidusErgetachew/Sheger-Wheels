@@ -35,3 +35,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [32] perf: trim bundle size by removing redundant UI logic
 - [33] refactor: align booking states with consistent lifecycle naming
 - [34] security: guard admin interactions with role checks and fallbacks
+- [35] test: confirm saved favorites remain reactive across tabs
