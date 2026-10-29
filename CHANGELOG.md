@@ -110,3 +110,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [107] perf: reduce duplicate CSS by consolidating shared tokens
 - [108] refactor: unwrap nested promises in async booking actions
 - [109] security: guard against null unsafe values in mock payment flow
+- [110] test: validate local recovery logic after repeated resets
