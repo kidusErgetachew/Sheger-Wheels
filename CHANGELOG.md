@@ -84,3 +84,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [81] feat: add fleet utilization reporting for owners
 - [82] fix: handle invalid vehicle year inputs with precise guidance
 - [83] perf: tune image handling for faster initial page renders
+- [84] refactor: simplify session storage logic around user identity
