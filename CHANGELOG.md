@@ -118,3 +118,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [115] perf: precompute static landing page sections for faster rendering
 - [116] refactor: decompose large page logic into smaller reusable units
 - [117] security: fail closed on unknown user roles and blocked profiles
+- [118] test: verify all core user journeys still pass under reuse
