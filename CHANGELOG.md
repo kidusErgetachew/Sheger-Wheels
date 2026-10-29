@@ -67,3 +67,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [64] ui: polish filters, toggles, and booking summaries
 - [65] feat: add renter booking cancellation and status updates
 - [66] fix: handle unsupported browser storage states safely
+- [67] perf: reduce rehydration overhead for static default pages
