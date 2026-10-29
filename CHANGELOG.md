@@ -42,3 +42,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [39] fix: handle invalid date ranges with clear validation feedback
 - [40] chore: align dependency versions for stable builds
 - [41] feat: add owner earnings ledger export capability
+- [42] fix: prevent duplicate booking requests under tight timing
