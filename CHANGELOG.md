@@ -65,3 +65,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [62] test: cover vehicle creation validation edge cases
 - [63] docs: describe recovery and rollback patterns for stored records
 - [64] ui: polish filters, toggles, and booking summaries
+- [65] feat: add renter booking cancellation and status updates
