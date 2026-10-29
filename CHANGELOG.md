@@ -37,3 +37,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [34] security: guard admin interactions with role checks and fallbacks
 - [35] test: confirm saved favorites remain reactive across tabs
 - [36] docs: capture ownership and renter workflow responsibilities
+- [37] ui: improve map and location discovery callouts
