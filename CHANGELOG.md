@@ -81,3 +81,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [78] test: verify unauthorized access returns clear error payloads
 - [79] docs: summarize lessons learned from security misuse tests
 - [80] ui: tighten spacing and typography for clearer scanning
+- [81] feat: add fleet utilization reporting for owners
