@@ -78,3 +78,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [75] perf: cache filtered list results during quick user interactions
 - [76] refactor: clean up checkout state transitions and edge cases
 - [77] security: fail closed when demo session data is missing
+- [78] test: verify unauthorized access returns clear error payloads
