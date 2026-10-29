@@ -56,3 +56,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [53] security: harden input validation for vehicle listing forms
 - [54] test: confirm owner status toggles update dashboards correctly
 - [55] docs: capture roadmap for production backend migration
+- [56] ui: refine dark theme contrast and focus states
