@@ -46,3 +46,4 @@ This changelog captures the staged delivery milestones for the Sheger Wheels Add
 - [43] perf: cache static inventory data for quicker loads
 - [44] refactor: reduce nested conditionals in checkout logic
 - [45] security: audit demo user access and deny unauthorized actions
+- [46] test: validate dispute and announcement admin screens
