@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useSyncExternalStore } from "react";
+import { Suspense, use, useSyncExternalStore } from "react";
 import Link from "next/link";
 import { ProtectedDemo } from "@/components/protected-demo";
 import { useCurrentDemoSession } from "@/lib/demo/session-store";
@@ -23,6 +23,18 @@ function getSnapshot() {
 }
 
 export default function OwnerCarEditPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  return (
+    <Suspense fallback={<p className="protected-demo-state" role="status">Loading vehicle editor…</p>}>
+      <OwnerCarEditRoute params={params} />
+    </Suspense>
+  );
+}
+
+function OwnerCarEditRoute({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -83,4 +95,3 @@ function OwnerCarEditContent({ carId }: { carId: string }) {
     </main>
   );
 }
-

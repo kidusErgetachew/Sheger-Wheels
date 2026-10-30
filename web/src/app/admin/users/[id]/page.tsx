@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useSyncExternalStore, useState } from "react";
+import { Suspense, use, useSyncExternalStore, useState } from "react";
 import Link from "next/link";
 import { ProtectedDemo } from "@/components/protected-demo";
 import { readDemoCollection, DEMO_DATA_CHANGE_EVENT } from "@/lib/demo/storage";
@@ -29,6 +29,18 @@ function getSnapshot() {
 }
 
 export default function AdminUserDetailPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  return (
+    <Suspense fallback={<p className="protected-demo-state" role="status">Loading user details…</p>}>
+      <AdminUserDetailRoute params={params} />
+    </Suspense>
+  );
+}
+
+function AdminUserDetailRoute({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -231,4 +243,3 @@ function AdminUserDetailContent({ userId }: { userId: string }) {
     </main>
   );
 }
-

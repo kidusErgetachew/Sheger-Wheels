@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { BookingRecord } from "@/components/booking-record";
 import { ProtectedDemo } from "@/components/protected-demo";
@@ -17,18 +18,26 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function BookingDetailPage({ params }: BookingDetailProps) {
-  const { id } = await params;
-
+export default function BookingDetailPage({ params }: BookingDetailProps) {
   return (
     <>
       <SiteHeader />
       <main className="booking-page booking-page-narrow">
-        <ProtectedDemo role="renter">
-          <BookingRecord bookingId={id} />
-        </ProtectedDemo>
+        <Suspense fallback={<p className="protected-demo-state" role="status">Loading booking details…</p>}>
+          <BookingDetailContent params={params} />
+        </Suspense>
       </main>
       <SiteFooter />
     </>
+  );
+}
+
+async function BookingDetailContent({ params }: BookingDetailProps) {
+  const { id } = await params;
+
+  return (
+    <ProtectedDemo role="renter">
+      <BookingRecord bookingId={id} />
+    </ProtectedDemo>
   );
 }

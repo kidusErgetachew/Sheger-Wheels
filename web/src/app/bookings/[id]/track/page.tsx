@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import type { Metadata } from "next";
 import { ProtectedDemo } from "@/components/protected-demo";
 import { SiteFooter } from "@/components/site-footer";
@@ -17,19 +18,26 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function BookingTrackPage({ params }: TrackPageProps) {
-  const { id } = await params;
-
+export default function BookingTrackPage({ params }: TrackPageProps) {
   return (
     <>
       <SiteHeader />
       <main className="booking-page">
-        <ProtectedDemo role="renter">
-          <TripTracking bookingId={id} />
-        </ProtectedDemo>
+        <Suspense fallback={<p className="protected-demo-state" role="status">Loading trip details…</p>}>
+          <BookingTrackContent params={params} />
+        </Suspense>
       </main>
       <SiteFooter />
     </>
   );
 }
 
+async function BookingTrackContent({ params }: TrackPageProps) {
+  const { id } = await params;
+
+  return (
+    <ProtectedDemo role="renter">
+      <TripTracking bookingId={id} />
+    </ProtectedDemo>
+  );
+}

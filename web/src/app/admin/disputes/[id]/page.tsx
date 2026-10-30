@@ -1,6 +1,6 @@
 "use client";
 
-import { use, useSyncExternalStore, useState } from "react";
+import { Suspense, use, useSyncExternalStore, useState } from "react";
 import Link from "next/link";
 import { ProtectedDemo } from "@/components/protected-demo";
 import { readDemoCollection, DEMO_DATA_CHANGE_EVENT } from "@/lib/demo/storage";
@@ -31,6 +31,18 @@ function getSnapshot() {
 }
 
 export default function AdminDisputeDetailPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  return (
+    <Suspense fallback={<p className="protected-demo-state" role="status">Loading dispute details…</p>}>
+      <AdminDisputeDetailRoute params={params} />
+    </Suspense>
+  );
+}
+
+function AdminDisputeDetailRoute({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -213,4 +225,3 @@ function AdminDisputeDetailContent({ disputeId }: { disputeId: string }) {
     </main>
   );
 }
-
