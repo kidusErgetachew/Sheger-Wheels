@@ -2,31 +2,28 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ToastNotificationContainer } from "@/components/notification-center";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://sheggar-wheels.vercel.app";
+const siteUrl = "https://web-kqqt.vercel.app";
+const socialImageUrl = new URL("/opengraph-image.jpg", siteUrl).toString();
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Sheggar Wheels | Drive Addis",
-    template: "%s | Sheggar Wheels",
-  },
-  description:
-    "Explore a fictional peer-to-peer car rental marketplace demo made for Addis Ababa.",
+  applicationName: "Sheggar Wheels",
+  title: "Sheggar Wheels | Drive Addis.",
+  description: "Discover and rent quality cars in Addis Ababa.",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Sheggar Wheels | Drive Addis",
-    description:
-      "Discover local demo cars and explore the Sheggar Wheels Addis Ababa marketplace.",
+    title: "Sheggar Wheels | Drive Addis.",
+    description: "Discover and rent quality cars in Addis Ababa.",
     url: siteUrl,
     siteName: "Sheggar Wheels",
     images: [
       {
-        url: "/cars/hero-addis.jpg",
+        url: socialImageUrl,
         width: 1200,
         height: 630,
-        alt: "Sheggar Wheels - Addis Ababa Car Rental Marketplace",
+        alt: "Sheggar Wheels: Drive Addis. Discover and rent quality cars in Addis Ababa.",
       },
     ],
     type: "website",
@@ -34,10 +31,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sheggar Wheels | Drive Addis",
-    description:
-      "Explore a fictional peer-to-peer car rental marketplace demo made for Addis Ababa.",
-    images: ["/cars/hero-addis.jpg"],
+    title: "Sheggar Wheels | Drive Addis.",
+    description: "Discover and rent quality cars in Addis Ababa.",
+    images: [socialImageUrl],
   },
 };
 
