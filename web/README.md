@@ -128,6 +128,26 @@ Visitors can also self-register a new renter account with custom name and email 
 
 ---
 
+## TeleBirr Checkout, In-App Notifications & Review System
+
+- **Simulated TeleBirr Checkout Flow:**
+  - Authentic Ethio Telecom TeleBirr-branded checkout modal featuring test phone input, masked 4-digit PIN field, and "Complete demo payment" action.
+  - Generates verifiable synthetic transaction references (format: `TB-DEMO-TIMESTAMP-SUFFIX`).
+  - Post-payment "Payment Succeeded!" screen with an explicit primary **"&larr; Back to home page"** return button (`href="/"`), plus links to the reservation receipt, trip tracking, and renter bookings.
+  - Zero financial credentials collected or transmitted; completely safe simulation.
+
+- **In-App Notification Center & Floating Toasts:**
+  - Notification bell with real-time unread badge counter in header and dashboard topbars.
+  - Dropdown drawer supporting individual item read toggling, "Mark all as read", and "Clear all notifications".
+  - Floating toast alerts trigger automatically on storage events (booking confirmation, cancellations, listings approval, and dispute updates).
+
+- **Reviews & Owner Feedback Loop:**
+  - Dedicated review route (`/bookings/[id]/review`) accessible only to renters with completed rentals.
+  - 1-to-5 star rating selector, minimum comment length validation, and strict single-review-per-booking enforcement.
+  - Owner Reviews space (`/owner/reviews`) where vehicle owners can view customer ratings and publish official replies.
+
+---
+
 ## Security & Misuse Scenario Verification
 
 1. **Signed-Out Write:** Direct attempts to mutate listings or bookings while unauthenticated return `{ ok: false, error: "Not signed in." }`.
