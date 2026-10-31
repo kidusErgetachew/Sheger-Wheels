@@ -46,7 +46,13 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ```bash
 npm run test
 ```
-Executes 17 unit and integration tests covering security misuse scenarios, storage recovery, booking conflict detection, car input validation, saved favorites reactivity, and the Light/Dark theme system.
+Executes 19 unit and integration tests across 6 dedicated test suites covering:
+- **Security Misuse Defense (4 tests):** Unsafe external return URL redirection, signed-out mutation blockage, cross-user ownership violation, and cross-renter booking protection.
+- **Storage Resilience & Transitions (6 tests):** Malformed JSON recovery, malformed schema shape recovery, session storage sign-in/sign-out, booking date overlap detection, 5% fee quote calculation, and role-governed lifecycle transitions.
+- **Notifications & Reviews (2 tests):** Real-time in-app notification center, read status toggling, and review submission with duplicate prevention and booking state checks.
+- **Theme System (3 tests):** System preference detection, explicit Light/Dark toggling, local storage persistence (`sw_theme_v1`), and resilience to corrupted storage values.
+- **Favorites System (2 tests):** Real-time bookmarking, storage synchronization, and recovery against invalid favorites data.
+- **Car Validation & Registration (2 tests):** Vehicle pricing/seat/year boundary checks, duplicate registration detection, and renter role enforcement.
 
 ### 4. Run Linter
 ```bash
