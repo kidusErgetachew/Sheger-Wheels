@@ -148,6 +148,41 @@ Visitors can also self-register a new renter account with custom name and email 
 
 ---
 
+## Route & Feature Directory
+
+| Route | Access Level | Description & Available Actions |
+|---|---|---|
+| `/` | Public | Hero landing page, instant search bar, featured vehicles, and how-it-works overview |
+| `/cars` | Public | Vehicle catalogue with neighbourhood filters, price range, transmission, and pagination |
+| `/cars/[id]` | Public | Car details, specifications, real-time quote calculator, and Leaflet interactive map |
+| `/signin` | Public | Role-aware demo account selector, new renter registration, and return URL handling |
+| `/signup` | Public | Alias routing to `/signin` with focused registration form |
+| `/logout` / `/signout` | Public | Safe session termination page with automated redirection to landing page (`/`) |
+| `/dashboard` | Renter | Renter workspace overview with trip status cards, spending analytics, and quick links |
+| `/bookings` | Renter | Alias to renter booking history with status filters |
+| `/bookings/[id]` | Renter / Admin | Detailed reservation invoice, payment details, and cancellation actions |
+| `/bookings/[id]/track` | Booking Owner | Real-time animated trip tracking simulation with Addis Ababa route checkpoints |
+| `/bookings/[id]/review` | Completed Renter | Star rating submission (1-5 stars) with comment validation |
+| `/checkout` | Signed-In Renter | Snapshotted quote verification and TeleBirr modal payment simulation |
+| `/owner` | Owner | Fleet overview, active reservations, fleet utilization rate, and incoming requests |
+| `/owner/cars` | Owner | Vehicle roster management with status toggling (Available / Inactive) |
+| `/owner/cars/new` | Owner | New vehicle submission form with photo upload and validation |
+| `/owner/cars/[id]/edit` | Car Owner | Listing editor with strict cross-owner modification protection |
+| `/owner/earnings` | Owner | Monthly earnings summary, vehicle utilization breakdown, and CSV ledger export |
+| `/owner/reviews` | Owner | Reputation management: view renter reviews and post official owner responses |
+| `/owner/disputes` | Owner | Review open dispute tickets associated with owner's vehicles |
+| `/admin` | Admin | Platform control center with volume stats, fee calculations, and fleet health |
+| `/admin/listings` | Admin | Listing approval moderation queue (Approve / Reject listings) |
+| `/admin/users` | Admin | User accounts directory with suspension and reinstatement controls |
+| `/admin/users/[id]` | Admin | Inspector for individual demo users with linked vehicles and booking history |
+| `/admin/bookings` | Admin | Platform-wide master reservations ledger |
+| `/admin/disputes` | Admin | Central dispute resolution desk |
+| `/admin/disputes/[id]` | Admin | Dispute case review with binding arbitration resolution notes form |
+| `/admin/reports` | Admin | Platform analytics with CSV exports (Bookings, Fleet Roster, Users Directory) |
+| `/admin/announcements` | Admin | Broadcast banner management with active status toggling |
+
+---
+
 ## Security & Misuse Scenario Verification
 
 1. **Signed-Out Write:** Direct attempts to mutate listings or bookings while unauthenticated return `{ ok: false, error: "Not signed in." }`.
