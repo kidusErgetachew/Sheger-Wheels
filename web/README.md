@@ -113,6 +113,21 @@ Visitors can also self-register a new renter account with custom name and email 
 
 ---
 
+## Maps, Location Verification & Trip Tracking Simulation
+
+- **Interactive Leaflet Map (`/cars/[id]`):**
+  - Integrated via client-only dynamic loading (`next/dynamic` with `ssr: false`) to prevent server-side window evaluation errors.
+  - Renders OpenStreetMap raster tiles (`https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png`) with custom pin markers centered on Addis Ababa neighbourhoods (Bole, Piazza, Kazanchis, Sarbet, CMC, Bole Atlas).
+  - Non-GPS Disclosure: Explicitly labeled as approximate seeded sample coordinates so users know real-time GPS tracking is not simulated.
+  - Accessible Non-Map Fallback: Provides a structured textual neighbourhood guide with pickup instructions for accessibility and offline resilience.
+
+- **Simulated Trip Tracking (`/bookings/[id]/track`):**
+  - Live demonstration of active trip progression through 7 Addis Ababa checkpoints: Bole Airport &rarr; Medhanialem &rarr; Atlas &rarr; Meskel Square &rarr; Stadium &rarr; Arat Kilo &rarr; Piazza.
+  - Interactive journey controls: Start/Pause playback, 1x/2x/4x speed acceleration, and reset.
+  - Telemetry HUD: Real-time calculation of completed distance percentage, simulated speed (km/h), and dynamic estimated arrival time (ETA).
+
+---
+
 ## Security & Misuse Scenario Verification
 
 1. **Signed-Out Write:** Direct attempts to mutate listings or bookings while unauthenticated return `{ ok: false, error: "Not signed in." }`.
